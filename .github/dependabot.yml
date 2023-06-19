@@ -6,7 +6,7 @@ version: 2
 updates:
   - package-ecosystem: bundler
     directory: /
-    # insecure-external-code-execution: allow
+    insecure-external-code-execution: allow
     # registries:
     #   - github
     schedule:
