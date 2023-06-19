@@ -1,16 +1,15 @@
 version: 2
 registries:
-  github:
-    type: git
-    url: https://github.com
-    username: u
-    password: ${{ secrets.SS }}
+  ruby-github:
+    type: rubygems-server
+    url: https://rubygems.pkg.github.com/octocat/github_api
+    token: ${{ secrets.SS }}
 updates:
   - package-ecosystem: bundler
     directory: /
     # insecure-external-code-execution: allow
     registries:
-      - github
+      - ruby-github
     schedule:
       interval: daily
       time: "08:00"
