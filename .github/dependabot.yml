@@ -1,0 +1,16 @@
+version: 2
+# registries:
+#   github:
+#     type: git
+#     url: https://github.com
+updates:
+  - package-ecosystem: bundler
+    directory: /
+    # insecure-external-code-execution: allow
+    # registries:
+    #   - github
+    schedule:
+      interval: daily
+      time: "08:00"
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 10
