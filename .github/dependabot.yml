@@ -1,14 +1,14 @@
 version: 2
-# registries:
-#   github:
-#     type: git
-#     url: https://github.com
+registries:
+  github:
+    type: git
+    url: https://github.com
 updates:
   - package-ecosystem: bundler
     directory: /
     # insecure-external-code-execution: allow
-    # registries:
-    #   - github
+    registries:
+      - github
     schedule:
       interval: daily
       time: "08:00"
