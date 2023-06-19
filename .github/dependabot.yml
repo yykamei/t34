@@ -3,6 +3,8 @@ registries:
   github:
     type: git
     url: https://github.com
+    username: u
+    password: p
 updates:
   - package-ecosystem: bundler
     directory: /
