@@ -1,9 +1,9 @@
 version: 2
-registries:
-  ruby-github:
-    type: rubygems-server
-    url: https://rubygems.pkg.github.com/octocat/github_api
-    token: ${{ secrets.SS }}
+#registries:
+#  ruby-github:
+#    type: rubygems-server
+#    url: https://rubygems.pkg.github.com/octocat/github_api
+#    token: ${{ secrets.SS }}
 updates:
   - package-ecosystem: bundler
     directory: /
