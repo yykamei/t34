@@ -10,5 +10,5 @@ updates:
     schedule:
       interval: daily
     insecure-external-code-execution: deny
-    registries:
-      - ruby-github
+#    registries:
+#      - ruby-github
