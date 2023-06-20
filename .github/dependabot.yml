@@ -4,4 +4,4 @@ updates:
     directory: /
     schedule:
       interval: daily
-    insecure-external-code-execution: deny
+    insecure-external-code-execution: allow
