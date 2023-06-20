@@ -9,6 +9,6 @@ updates:
     directory: /
     schedule:
       interval: daily
-#    insecure-external-code-execution: allow
+    insecure-external-code-execution: allow
     registries:
       - ruby-github
