@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/yykamei/t34_gem.git
-  revision: c2941d112814512552c4ef5988e29b7c0e7282b6
+  revision: 31150c374a92bda6659f89569f0ff0c80ddbf7ac
   specs:
-    t34_gem (0.1.0)
+    t34_gem (0.1.9)
 
 GEM
   remote: https://rubygems.org/
@@ -10,6 +10,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   t34_gem!
