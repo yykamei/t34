@@ -1,17 +1,4 @@
 version: 2
-registries:
-  ruby-github:
-    type: rubygems-server
-    url: https://rubygems.pkg.github.com/octocat/github_api
-    token: ${{ secrets.SS }}
 updates:
   - package-ecosystem: bundler
     directory: /
-    insecure-external-code-execution: allow
-    registries:
-      - ruby-github
-    schedule:
-      interval: daily
-      time: "08:00"
-      timezone: Asia/Tokyo
-    open-pull-requests-limit: 10
